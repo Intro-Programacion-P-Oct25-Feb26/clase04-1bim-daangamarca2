@@ -28,5 +28,6 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        // \t tabulador que separa 4 espacios y \n pasa a la siguiente linea
     }
 }
