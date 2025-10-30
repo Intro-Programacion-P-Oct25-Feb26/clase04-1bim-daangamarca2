@@ -32,7 +32,7 @@ public class Ejemplo11 {
         notaAsignatura1 = entrada.nextDouble();
         
         
-        System.out.printf("Asignatura 1: %s\nNota 1:%.1f" ,             
+        System.out.printf("Asignatura 1: %s\nNota 1:%.1f" , // %2f significa que si tengo un decimal lo voy a recibir con dos decimales             
                 nombreAsignatura1,
                 notaAsignatura1
                 );
