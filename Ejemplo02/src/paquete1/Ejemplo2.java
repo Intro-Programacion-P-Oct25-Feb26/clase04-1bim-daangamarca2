@@ -25,6 +25,7 @@ public class Ejemplo2 {
         double notaAsignatura1;
         double notaAsignatura2;
         
+        // La limpieza de Buffer la uso cuando regreso de un numerico a una cadena
         System.out.println("Ingrese nombre de asignatura 1");
         nombreAsignatura1 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 1");
