@@ -21,9 +21,10 @@ public class Ejemplo11 {
                                         // punto
                                         // no con coma
         // declarar las variables
-        String nombreAsignatura1;        
-        double notaAsignatura1;
-        
+        String nombreAsignatura1;
+        String nombreAsignatura2;
+        double notaAsignatura1;      
+        double notaAsignatura2;
         
         System.out.println("Ingrese nombre de asignatura 1");
         nombreAsignatura1 = entrada.nextLine(); // nextLine me permite recibir o almacenar una cadena 
@@ -31,7 +32,7 @@ public class Ejemplo11 {
         notaAsignatura1 = entrada.nextDouble();
         
         
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f" ,             
+        System.out.printf("Asignatura 1: %s\nNota 1:%.1f" ,             
                 nombreAsignatura1,
                 notaAsignatura1
                 );
